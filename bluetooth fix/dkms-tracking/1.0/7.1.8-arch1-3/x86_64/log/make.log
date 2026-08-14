@@ -1,0 +1,19 @@
+DKMS (dkms-3.4.1) make.log for btusb-toshiba-0930-0222/1.0 for kernel 7.1.8-arch1-3 (x86_64)
+Wed Aug 12 08:36:09 AM EAT 2026
+
+Building module(s)
+# command: make -j4 KERNELRELEASE=7.1.8-arch1-3 -C /usr/lib/modules/7.1.8-arch1-3/build M=/var/lib/dkms/btusb-toshiba-0930-0222/1.0/build
+make: Entering directory '/usr/lib/modules/7.1.8-arch1-3/build'
+make[1]: Entering directory '/var/lib/dkms/btusb-toshiba-0930-0222/1.0/build'
+  CC [M]  btusb.o
+  MODPOST Module.symvers
+  CC [M]  btusb.mod.o
+  CC [M]  .module-common.o
+  LD [M]  btusb.ko
+  BTF [M] btusb.ko
+make[1]: Leaving directory '/var/lib/dkms/btusb-toshiba-0930-0222/1.0/build'
+make: Leaving directory '/usr/lib/modules/7.1.8-arch1-3/build'
+
+# exit code: 0
+# elapsed time: 00:00:20
+----------------------------------------------------------------
